@@ -1,0 +1,43 @@
+#blocPage {
+  background: red;
+  width: 900px;
+  margin: 0 auto;
+  background: beige;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 25px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.titleZozor {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  transform: translate3d(0, -20px, 0);
+}
+.spanZozor {
+  transform: translate3d(60px, 0, 0);
+  color: black;
+  font-size: 45px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+}
+nav ul li {
+  list-style-type: none;
+}
+.accueil {
+  color: brown;
+  border-bottom: 3px solid brown;
+}
