@@ -41,3 +41,73 @@ nav ul li {
   color: brown;
   border-bottom: 3px solid brown;
 }
+/****fin du header****/
+/***debut du main**/
+
+#main {
+  /* background: red; */
+}
+.imagePont {
+  position: relative;
+}
+.imagePont img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+.background {
+  position: absolute;
+  width: 100%;
+  background: black;
+  opacity: 0.3;
+  height: 50px;
+  bottom: 4px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.logoTitle {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.logoTitle img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.logoTitle h2 {
+  font-size: 15px;
+  color: darkgray;
+}
+.paragrapheMain {
+  width: 600px;
+}
+#parentMain {
+  display: flex;
+  gap: 5px;
+}
+.articleMain {
+  width: 200px;
+  height: 300px;
+  background-color: grey;
+  border-radius: 15px;
+  text-align: center;
+}
+.articleMain img {
+  border-radius: 15px;
+  object-fit: cover;
+}
+.articleMain p {
+  font-size: 12px;
+}
+.logosImage {
+  display: flex;
+  gap: 5px;
+}
+.logosImage img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  margin: auto;
+}
