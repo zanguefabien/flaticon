@@ -45,7 +45,8 @@ nav ul li {
 /***debut du main**/
 
 #main {
-  /* background: red; */
+  padding-top: 20px;
+  border-top: 2px solid red;
 }
 .imagePont {
   position: relative;
@@ -112,3 +113,47 @@ nav ul li {
   margin: auto;
 }
 /***fin du main**/
+
+/***debut du footer***/
+#footer {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: beige;
+  display: flex;
+  justify-content: space-between;
+  border-top: 2px solid red;
+}
+.firstChildFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.secondChildFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.parentImageFooter {
+  display: flex;
+  gap: 10px;
+}
+.parentImageFooter img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 7px;
+}
+.thirdchildFooter {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.sous-parentIconSpan {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+.sous-parentIconSpan img {
+  width: 15px;
+  height: 15px;
+}
