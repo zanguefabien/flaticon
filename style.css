@@ -120,6 +120,7 @@ nav ul li {
   padding-bottom: 30px;
   background: beige;
   display: flex;
+
   justify-content: space-between;
   border-top: 2px solid red;
 }
@@ -156,4 +157,7 @@ nav ul li {
 .sous-parentIconSpan img {
   width: 15px;
   height: 15px;
+}
+.flotterSpan {
+  color: transparent;
 }
